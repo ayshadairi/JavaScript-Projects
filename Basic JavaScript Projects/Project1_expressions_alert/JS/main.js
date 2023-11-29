@@ -20,3 +20,14 @@ document.write(org);
 
 3+3
 document.write(3+3);
+
+function My_First_Function(){
+    var str='this is how you write an event function!';
+    document.getElementById('Botton_Text').innerHTML = str;
+}
+
+function myFunction() {
+    var sentence = "I am learning";
+    sentence += " a lot from this course";
+    document.getElementById("Concatenate").innerHTML = sentence;
+}
