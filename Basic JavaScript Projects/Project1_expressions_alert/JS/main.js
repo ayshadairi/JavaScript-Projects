@@ -31,3 +31,10 @@ function myFunction() {
     sentence += " a lot from this course";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
+
+function writing_my_own_Function(){
+    document.write('This is my very first function');
+}
+
+writing_my_own_Function()
+
