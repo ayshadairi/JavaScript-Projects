@@ -26,7 +26,7 @@ function myFunction() {
     " manufactured in " + Erik.Vehicle_Year;
 }
 
-function count_function() {
+function count_function() { // nested functions means a function inside another
     document.getElementById("counting").innerHTML = count();
     function count() {
         var Starting_point = 9;
