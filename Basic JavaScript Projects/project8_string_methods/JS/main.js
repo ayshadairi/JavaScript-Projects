@@ -22,11 +22,11 @@ function caps(){ // turns string into upper case
 let text='Mr. Blue has a blue house'; //search() method caan find the position number of the string
 let position= text.search('Blue');
 
-function string_method(){
+function string_method(){ //converting a number to a string
     var X=1223;
     document.getElementById('numbers_to_string').innerHTML= X.toString();
 }
-function precision_method(){
+function precision_method(){ //using precision
     var X=122375876.6785665674754;
     document.getElementById('precision').innerHTML= X.toPrecision(10);
 }
